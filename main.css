@@ -1,0 +1,41 @@
+h1 {
+  color: #FFFFFF;
+  font-family: Oswald;
+}
+
+h3 {
+  color: #083452;
+  font-family: Oswald;
+}
+
+h2 {
+  color: #083452;
+  font-family: Oswald;
+}
+
+.side img {
+  border-radius: 50%;
+}
+
+p {
+  font-family: Open Sans, sans-serif;
+}
+
+.top li {
+  float: right;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+footer {
+  background: #083452;
+  color: #FFFFFF;
+  font-family: Open Sans, sans-serif;
+}
+
+.footer li {
+  text-decoration: none;
+  list-style-type: none;
+  color: #FFFFFF;
+  font-family: Open Sans, sans-serif;
+}
