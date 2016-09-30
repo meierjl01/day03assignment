@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.google.com/?selection.family=Open+Sans|Oswald" />
     <title>Surf & Paddle Co.</title>
@@ -10,14 +11,15 @@
 
 <body>
     <header>
-        <div>
+        <div class="first-header">
             <img src="http://fillmurray.com/g/20/20" />
-            <h5>SURF & PADDLE CO. BLOG</h5>
+        <h5>SURF & PADDLE CO. BLOG</h5>
         </div>
         <nav class="top">
             <ul>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">SEARCH</a></li>
+                <li class ="top-links"><a class="top-links" href="#">ABOUT</a></li>
+                <li class="top-links"><a class="top-links" href="#">SEARCH</a></li>
+                <li class="top-links"><i class="fa fa-search" aria-hidden="true"></i></li>
             </ul>
         </nav>
         <hgroup>
@@ -26,16 +28,16 @@
         </hgroup>
     </header>
 
-    <aside>
+    <aside class="sidebar">
         <div class="side">
           <img src="http://fillmurray.com/g/40/40" />
           <h4>ANNE MARIE</h4>
-          <a href="#">Twitter</a>
-          <a href="#">Facebook</a>
-          <a href="#">Instagram</a>
+          <a class="aside-links" href="#">Twitter</a>
+          <a class="aside-links" href="#">Facebook</a>
+          <a class="aside-links" href="#">Instagram</a>
         </div>
         <img src="http://fillmurray.com/g/200/300" />
-        <a href="#">About This Ad</a>
+        <a class="aside-link" href="#">About This Ad</a>
         <h4>SIDEBAR SECTION HEADING</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
     </aside>
@@ -45,9 +47,7 @@
         <img src="http://fillmurray.com/g/20/20" />
         <h6>Anne Marie</h6>
         <div>
-            <span>
-            on <a href="#">Monday Oct 7th 9:22pm</a>
-          </span>
+            on <a class="article-link-a" href="#">Monday Oct 7th 9:22pm</a>
         </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
             irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -59,15 +59,52 @@
             irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
             irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt.</p>
-        <nav>
-          <a href="#">Read Comments</a>
-          <a href="#">Read Later</a>
-          <a href="#">Share This Post</a>
+        <nav class="image-links">
+          <div class="comments">
+            <div class="comment-icon">
+              <i class="fa fa-comment" aria-hidden="true"></i>
+            </div>
+            <div class="comment-link">
+              <a class="body-link" href="#">Read Comments</a>
+            </div>
+          </div>
+
+          <div class="read-later">
+            <div class="read-icon">
+              <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+            </div>
+            <div class="read-link">
+              <a class="body-link" href="#">Read Later</a>
+            </div>
+          </div>
+
+          <div class="share">
+            <div class="share-icon">
+              <i class="fa fa-share-square" aria-hidden="true"></i>
+            </div>
+            <div class="share-link">
+              <a class="body-link" href="#">Share This Post</a>
+            </div>
+          </div>
+
         </nav>
     </article>
 
-    <aside>
+    <aside class="popular">
         <h3>MOST POPULAR POSTS</h3>
+
+        <a class="popular-images" href="#">
+          <img src="http://www.placecage.com/c/200/300" />
+        </a>
+        <a class="popular-images" href="#">
+          <img src="http://www.placecage.com/g/200/300" />
+        </a>
+        <a class="popular-images" href="#">
+          <img src="http://www.placekitten.com/200/300" />
+        </a>
+        <a class="popular-images" href="#">
+          <img src="http://fillmurray.com/200/300" />
+        </a>
 
         <h5>ANOTHER COOL POST
           POST TITLE
@@ -80,12 +117,12 @@
             <img src="https://www.theironyard.com/etc/designs/theironyard/icons/iron-yard-logo.svg" style="width: 5%; height: 5%" />
             <h6>The Ironyard Copywright of 2013. All Rights Reserved</h6>
         </div>
-        <nav>
-            <ul class="footer">
-                <li><a href="#">Nav Item 1</a></li>
-                <li><a href="#">Nav Item 2</a></li>
-                <li><a href="#">Nav Item 3</a></li>
-                <li><a href="#">Nav Item 5</a></li>
+        <nav class="footer">
+            <ul>
+                <li class="foot-links"><a class="foot-links" href="#">Nav Item 1</a></li>
+                <li class="foot-links"><a class="foot-links" href="#">Nav Item 2</a></li>
+                <li class="foot-links"><a class="foot-links" href="#">Nav Item 3</a></li>
+                <li class="foot-links"><a class="foot-links" href="#">Nav Item 5</a></li>
             </ul>
         </nav>
     </footer>

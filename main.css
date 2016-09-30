@@ -1,5 +1,9 @@
+a:hover {
+  color: #2D7FBC;
+}
+
 h1 {
-  color: #FFFFFF;
+  /*color: #FFFFFF;*/
   font-family: Oswald;
 }
 
@@ -8,34 +12,266 @@ h3 {
   font-family: Oswald;
 }
 
+
 h2 {
+  color: #083452;
+  font-family: Oswald;
+  padding-left: 10%;
+}
+
+article h5 {
+  padding-left: 10%;
+  color: #083452;
+  font-family: Oswald;
+  font-size: 20px;
+}
+
+hgroup {
+  text-align: center;
+}
+
+.popular h3 {
+  text-align: center;
   color: #083452;
   font-family: Oswald;
 }
 
+.popular img {
+  clear: both;
+}
+
+.popular-images {
+  float: left;
+}
+
 .side img {
   border-radius: 50%;
+  margin: 0 auto;
+  width: ;
+}
+
+.aside-links {
+  text-decoration: none;
+  list-style-type: none;
+    font-family: Open Sans;
+    color: #CFD7DE;
+    font-size: 13px;
+    padding: 3px;
+  }
+
+  .aside-link {
+    list-style-type: none;
+      font-family: Open Sans;
+      color: #CFD7DE;
+      font-size: 13px;
+    }
+
+  .aside-link aside {
+    text-align: right;
+  }
+
+.sidebar {
+  font-family: Open Sans;
+  color: #CFD7DE;
+  float: right;
+  width: 20%;
+  max-width: 20%;
+  padding-right: 10%;
+}
+
+article {
+  display: inline-block;
+  float: left;
+  width: 60%;
+  max-width: 80%;
+}
+
+article img {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10%;
+}
+
+article h6 {
+  display: inline-block;
+  vertical-align: middle;
+  color: #083452;
+  font-family: Open Sans;
+  font-size: 13px;
+}
+
+article div {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: Open Sans;
+  color: #CFD7DE;
+  font-size: 13px;
+}
+
+.image-links {
+  clear:both;
+}
+
+.comment-icon {
+  background-color: #5E686F;
+}
+
+.comment-link {
+  background-color: #A3B3BF;
+}
+
+.comments {
+  float:left;
+}
+
+.read-later {
+  float: left;
+}
+
+.share {
+  float: left;
+}
+
+.read-icon {
+  background-color: #5E686F;
+}
+
+.read-link {
+  background-color: #A3B3BF;
+}
+
+.share-icon {
+  background-color: #083452;
+}
+
+.share-link {
+  background-color: #106DB3;
+}
+
+
+.article-link-a {
+  font-family: Open Sans;
+  color: #CFD7DE;
+  font-size: 13px;
+}
+
+article p {
+  padding-left: 10%;
+  font-family: Open Sans;
+  font-size: 13px;
+}
+
+article nav {
+  padding-left: 10%;
 }
 
 p {
   font-family: Open Sans, sans-serif;
 }
 
-.top li {
-  float: right;
-  list-style-type: none;
+.body-link {
+  list-style: type;
   text-decoration: none;
+  color: #FFFFFF;
+  font-family: Open Sans;
 }
 
 footer {
   background: #083452;
   color: #FFFFFF;
   font-family: Open Sans, sans-serif;
+  padding: 2rem 10%;
+  font-size: 13px;
+  clear: both;
 }
 
-.footer li {
-  text-decoration: none;
+.popular {
+  clear: both;
+  padding-left: 8%;
+}
+
+footer div {
+  float: left;
+}
+
+footer::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.footer ul {
   list-style-type: none;
+}
+
+nav.footer {
+  float: right;
+}
+
+
+.foot-links {
+  text-decoration: none;
   color: #FFFFFF;
   font-family: Open Sans, sans-serif;
+  display: inline-block;
+}
+
+footer h6 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer img {
+  vertical-align: middle;
+}
+
+header img {
+  display: inline;
+  vertical-align: middle;
+}
+
+header h5 {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+header div {
+  float: left;
+}
+
+header::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.top-links {
+  list-style-type: none;
+  text-decoration: none;
+  display: inline-block;
+  color: #083452;
+  font-family: Oswald;
+}
+
+.top {
+  float: right;
+}
+
+.top ul{
+  display: inline-block;
+  list-style-type: none;
+  /*float: right;*/
+}
+
+header {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 15px;
+  color: #083452;
+  font-family: Oswald;
+}
+
+hgroup {
+  vertical align: middle;
+  padding: 5rem 15%;
 }
