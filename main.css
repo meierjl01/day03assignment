@@ -3,8 +3,12 @@ a:hover {
 }
 
 h1 {
-  /*color: #FFFFFF;*/
-  font-family: Oswald;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  letter-spacing: -2.5px;
+  position: relative;
 }
 
 h3 {
@@ -15,8 +19,18 @@ h3 {
 
 h2 {
   color: #083452;
-  font-family: Oswald;
-  padding-left: 10%;
+  font-family: 'Oswald' sans-serif;
+  font-size: 3.9rem;
+  font-weight: 300;
+  /*line-height: 1em;*/
+  letter-spacing: -4.1px;
+  margin: 0;
+}
+
+img {
+  opacity: 0.8;
+  background-blend-mode: overlay;
+  background-color: #10579C;
 }
 
 article h5 {
@@ -24,72 +38,80 @@ article h5 {
   color: #083452;
   font-family: Oswald;
   font-size: 20px;
-}
-
-hgroup {
-  text-align: center;
-}
-
-.popular h3 {
-  text-align: center;
-  color: #083452;
-  font-family: Oswald;
-}
-
-.popular img {
-  clear: both;
-}
-
-.popular-images {
-  float: left;
+  border-left: 5px solid #E8EDEF;
 }
 
 .side img {
   border-radius: 50%;
-  margin: 0 auto;
-  width: ;
+  background-color: #10579C;
+  background-blend-mode: overlay;
+}
+
+.side {
+  text-align: center;
+  padding-top: 75px;
+}
+
+.sidebar h4 {
+  color: #106DB3;
+}
+
+.bio {
+  text-align: left;
+}
+
+.author-image {
+  text-align: right;
+}
+
+div.author-image {
+  width: 100%;
 }
 
 .aside-links {
   text-decoration: none;
   list-style-type: none;
+  font-family: Open Sans;
+  color: #CFD7DE;
+  font-size: 13px;
+  padding: 3px;
+  }
+
+.date {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+.aside-link {
+    list-style-type: none;
     font-family: Open Sans;
     color: #CFD7DE;
     font-size: 13px;
-    padding: 3px;
-  }
-
-  .aside-link {
-    list-style-type: none;
-      font-family: Open Sans;
-      color: #CFD7DE;
-      font-size: 13px;
-    }
-
-  .aside-link aside {
     text-align: right;
-  }
+    display: inline-block;
+    }
 
 .sidebar {
   font-family: Open Sans;
   color: #CFD7DE;
   float: right;
-  width: 20%;
-  max-width: 20%;
-  padding-right: 10%;
+  width: 265px;
+  max-width: 260px;
+  padding-right: 165px;
+  display: inline-block;
 }
 
 article {
   display: inline-block;
   float: left;
-  width: 60%;
-  max-width: 80%;
+  width: 610px;
+  max-width: 600px;
+  padding-left: 166px;
 }
 
 article img {
   display: inline-block;
   vertical-align: middle;
-  padding-left: 10%;
 }
 
 article h6 {
@@ -100,9 +122,12 @@ article h6 {
   font-size: 13px;
 }
 
+.bio {
+  vertical-align: middle;
+}
+
 article div {
   display: inline-block;
-  vertical-align: middle;
   font-family: Open Sans;
   color: #CFD7DE;
   font-size: 13px;
@@ -110,6 +135,7 @@ article div {
 
 .image-links {
   clear:both;
+  display: inline-block;
 }
 
 .comment-icon {
@@ -118,19 +144,9 @@ article div {
 
 .comment-link {
   background-color: #A3B3BF;
+  float: right;
 }
 
-.comments {
-  float:left;
-}
-
-.read-later {
-  float: left;
-}
-
-.share {
-  float: left;
-}
 
 .read-icon {
   background-color: #5E686F;
@@ -138,14 +154,16 @@ article div {
 
 .read-link {
   background-color: #A3B3BF;
+  float: right;
 }
 
 .share-icon {
-  background-color: #083452;
+  background-color: #5E686F;
 }
 
 .share-link {
-  background-color: #106DB3;
+  background-color: #A3B3BF;
+  float: right;
 }
 
 
@@ -156,17 +174,17 @@ article div {
 }
 
 article p {
-  padding-left: 10%;
-  font-family: Open Sans;
+  /*font-family: Open Sans;*/
   font-size: 13px;
 }
 
-article nav {
-  padding-left: 10%;
-}
 
 p {
-  font-family: Open Sans, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  width: 100%;
 }
 
 .body-link {
@@ -179,16 +197,54 @@ p {
 footer {
   background: #083452;
   color: #FFFFFF;
-  font-family: Open Sans, sans-serif;
-  padding: 2rem 10%;
+  font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   clear: both;
+  height: 98px;
+  padding-left: 166px;
+  padding-right: 166px;
 }
 
 .popular {
   clear: both;
-  padding-left: 8%;
 }
+
+.popular h3 {
+  text-align: center;
+  color: #083452;
+  font-family: Oswald;
+  border-top: solid 1px #E8EDEF;
+}
+
+.popular h5 {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+}
+
+.popular img {
+  width: 100%;
+  opacity: 0.8;
+  background-color: #10579C;
+  background-blend-mode: overlay;
+}
+
+.popular-images {
+  float: left;
+  text-decoration: none;
+  font-family: Oswald;
+  color: #083452;
+  position: relative;
+  width: 25%;
+}
+
+
+.another-div {
+  position: relative;
+  bottom: 1rem;
+  left: 1rem;
+}
+
 
 footer div {
   float: left;
@@ -228,11 +284,13 @@ footer img {
 header img {
   display: inline;
   vertical-align: middle;
+  border-radius: 50%;
 }
 
 header h5 {
   vertical-align: middle;
   display: inline-block;
+  padding-left: 0.5em;
 }
 
 header div {
@@ -250,11 +308,15 @@ header::after {
   text-decoration: none;
   display: inline-block;
   color: #083452;
-  font-family: Oswald;
 }
 
 .top {
   float: right;
+  margin-top: -1.25rem;
+  font-weight: 100;
+  font-size: 19.5px;
+  font: 'Open Sans', sans-serif;
+  letter-spacing: -.1rem;
 }
 
 .top ul{
@@ -264,14 +326,41 @@ header::after {
 }
 
 header {
-  padding-left: 10%;
-  padding-right: 10%;
-  font-size: 15px;
+  padding: 16px 163px 0 131px;
+  font-size: 20px;
   color: #083452;
-  font-family: Oswald;
+  background-size: cover;
+  background-image: url("http://tidalvisionusa.com/wp-content/uploads/2015/05/ocean-floor-background.png");
+  opacity: 0.8;
+  background-color: #10579C;
+  background-blend-mode: overlay;
+  height: 508px;
+  margin: 0;
+}
+
+header:hover {
+  background-color: transparent;
+}
+
+hgroup h6 {
+    margin: -4.9rem;
+    position: relative;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: -1.8px;
 }
 
 hgroup {
-  vertical align: middle;
-  padding: 5rem 15%;
+  vertical-align: middle;
+  margin-top: 12rem;
+  text-align: center;
+}
+
+
+.first-header {
+  margin-top: -1.25rem;
+  font-weight: 100;
+  font-size: 20px;
+  font: 'Open Sans', sans-serif;
+  letter-spacing: -.05rem;
 }
